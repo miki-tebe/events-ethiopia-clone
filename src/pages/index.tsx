@@ -61,6 +61,7 @@ const Home: NextPage = () => {
           ) : (
             <p>Loading..</p>
           )}
+          {data?.length! < 1 && <>No events</>}
         </Grid>
       </Container>
     </>
